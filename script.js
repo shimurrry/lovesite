@@ -149,6 +149,7 @@ document.addEventListener('keydown', e => {
 
 const progress = document.getElementById("progress");
 const song = document.getElementById("song");
+song.volume = 0.2;
 const controlIcon = document.getElementById("controlIcon");
 const playPauseButton = document.querySelector(".play-pause-btn");
 const nextButton = document.querySelector(".controls button.forward");
@@ -158,8 +159,8 @@ const artistName = document.querySelector(".music-player p");
 
 const songs = [
   {
-    title: "Imogen Heap",
-    name: "Headlock",
+    title: "Headlock",
+    name: "Imogen Heap",
     source: "song-list/1.mp3",
   },
   {
@@ -178,8 +179,8 @@ const songs = [
     source: "song-list/4.mp3",
   },
   {
-    title: "SQAUTE",
-    name: "ВСЁ БУДЕТ ХОРОШО?",
+    title: "MANCHILD",
+    name: "Sabrina Carpenter",
     source: "song-list/5.mp3",
   },
   {
