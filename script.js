@@ -149,7 +149,7 @@ document.addEventListener('keydown', e => {
 
 const progress = document.getElementById("progress");
 const song = document.getElementById("song");
-song.volume = 0.2;
+song.volume = 0.1;
 const controlIcon = document.getElementById("controlIcon");
 const playPauseButton = document.querySelector(".play-pause-btn");
 const nextButton = document.querySelector(".controls button.forward");
